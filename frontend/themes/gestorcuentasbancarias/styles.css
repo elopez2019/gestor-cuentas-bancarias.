@@ -1,0 +1,5 @@
+@import url('./main-layout.css');
+@import url('./views/entidad-bancaria-view.css');
+@import url('./views/cliente-view.css');
+@import url('./views/cuenta-bancaria-view.css');
+@import url('./views/movimiento-bancario-view.css');

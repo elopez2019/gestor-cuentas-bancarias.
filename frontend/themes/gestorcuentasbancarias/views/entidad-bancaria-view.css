@@ -1,0 +1,24 @@
+.entidad-bancaria-view {
+  display: block;
+  height: 100%;
+}
+.entidad-bancaria-view vaadin-grid-pro {
+  height: 100%;
+}
+.entidad-bancaria-view vaadin-grid-filter,
+.entidad-bancaria-view vaadin-grid-filter > * {
+  width: 100%;
+}
+.entidad-bancaria-view vaadin-grid-pro vaadin-horizontal-layout {
+  align-items: center;
+}
+.entidad-bancaria-view vaadin-grid-pro img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: var(--lumo-size-m);
+  width: var(--lumo-size-m);
+}
+.entidad-bancaria-view .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
